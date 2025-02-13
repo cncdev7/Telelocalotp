@@ -3,9 +3,9 @@ from telethon import TelegramClient, events
 import re
 
 # Telegram API ma'lumotlari
-API_ID = 25014953  # my.telegram.org'dan olingan API_ID
-API_HASH = "bd5b73e287743e34b4ffb40a0e11f93e"  # my.telegram.org'dan olingan API_HASH
-PHONE_NUMBER = "+998999008877"  # O'z telefon raqamingizni kiriting
+API_ID = 11111111  # my.telegram.org'dan olingan API_ID
+API_HASH = ""  # my.telegram.org'dan olingan API_HASH
+PHONE_NUMBER = "+"  # O'z telefon raqamingizni kiriting
 
 app = FastAPI()
 client = TelegramClient("session_name", API_ID, API_HASH)
